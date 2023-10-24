@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples function that extracts codons from a DNA sample
-codon_extraction <- function(dna_sample, start = 1){
+CodonExtraction <- function(dna_sample, start = 1){
   size <- nchar(dna_sample)
   codons <- substring(dna_sample,
                       first = seq(from = start, to = size-3+1, by = 3),
