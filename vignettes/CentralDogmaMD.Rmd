@@ -14,6 +14,25 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+## GitHub Repository
+
+https://github.com/rforbiodatascience23/group_6_package/tree/master
+
 ```{r setup}
 library(CentralDogmaMD)
 ```
+
+## Breef descriptio of CentralDogmaMD
+
+### SampleDNA
+
+### TranscriptionDNA
+
+### CodonExtraction
+
+### ConcatenateCodons
+
+### PlotAA
+
+## Discussion (Task 3)
