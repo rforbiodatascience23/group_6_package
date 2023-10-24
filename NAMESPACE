@@ -3,4 +3,4 @@
 export(CodonExtraction)
 export(ConcatenateCodons)
 export(SampleDNA)
-export(Transcription)
+export(TranscriptionDNA)

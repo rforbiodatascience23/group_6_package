@@ -5,7 +5,7 @@
 #' @return returns string object with RNA transcribed from the input DNA.
 #' @export
 #'
-Transcription <- function(DNA){
+TranscriptionDNA <- function(DNA){
   RNA <- gsub("T", "U", DNA)
   return(RNA)
 }
