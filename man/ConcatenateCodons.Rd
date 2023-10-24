@@ -2,20 +2,19 @@
 % Please edit documentation in R/ConcatenateCodons.R
 \name{ConcatenateCodons}
 \alias{ConcatenateCodons}
-\title{Concatenate codons into one string}
+\title{Concatenate amino acids values of given key codons into one string}
 \usage{
-ConcatenateCodons(codons2)
+ConcatenateCodons(key_codons)
 }
 \arguments{
-\item{codons2}{list of codons to be merged}
+\item{key_codons}{list of key codons from which the amino acids will be merged}
 }
 \value{
-string of codons concatenated
+string of amino acids concatenated
 }
 \description{
-This function concatenates all the codons into a single string
+Concatenate amino acids values of given key codons into one string
 }
 \examples{
 none
-
 }

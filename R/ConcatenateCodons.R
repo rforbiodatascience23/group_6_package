@@ -1,20 +1,14 @@
-#' Concatenate codons into one string
+#' Concatenate amino acids values of given key codons into one string 
 #'
-#' @param codons2 list of codons to be merged
+#' @param key_codons list of key codons from which the amino acids will be merged
 #'
-#' @return string of codons concatenated
+#' @return string of amino acids concatenated
 #' @export
 #' 
 #' @examples none
-#' 
-#' @description
-#' This function concatenates all the codons into a single string
-#' 
 
-ConcatenateCodons <- function(codons2){
+ConcatenateCodons <- function(key_codons){
   
-  concatenated_sequence <- paste0(codons[codons2], collapse = "")
+  concatenated_sequence <- paste0(codons[key_codons], collapse = "")
   
-  return(concatenated_sequence)
-  
-}
+  return(concatenated_sequence)}

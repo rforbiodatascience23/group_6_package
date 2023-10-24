@@ -2,5 +2,6 @@
 
 export(CodonExtraction)
 export(ConcatenateCodons)
+export(PlotAA)
 export(SampleDNA)
 export(TranscriptionDNA)

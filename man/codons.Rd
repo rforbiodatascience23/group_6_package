@@ -14,6 +14,6 @@ An object of class \code{character} of length 64.
 codons
 }
 \description{
-Codons translation dictionary
+This file contains the data source for the codons translation dictionary
 }
 \keyword{datasets}
