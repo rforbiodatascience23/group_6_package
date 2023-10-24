@@ -6,7 +6,7 @@ editor: visual
 
 ## Task 2 - Build the package
 
-# Task 2.1 - Incorporate data
+### Task 2.1 - Incorporate data
 
 ```{r}
 codons <- c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
@@ -40,34 +40,18 @@ rstudioapi::documentSaveAll()  # Saves all you files
 devtools::document()  # Writes all your manuals for you
 devtools::load_all()  # Simulates library("your package"), allowing you to use your functions
 ```
+
 ```{r}
 ?codons
 print(codons)
 ```
+
 ## Function 1
-
-
-
-
 
 ## Function 2
 
-
-
-
-
 ## Function 3
-
-
-
-
 
 ## Function 4
 
-
-
-
-
 ## Function 5
-
-
