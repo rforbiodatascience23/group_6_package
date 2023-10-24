@@ -1,0 +1,38 @@
+---
+title: "CentralDogmaMD"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{CentralDogmaMD}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+## GitHub Repository
+
+https://github.com/rforbiodatascience23/group_6_package/tree/master
+
+```{r setup}
+library(CentralDogmaMD)
+```
+
+## Breef descriptio of CentralDogmaMD
+
+### SampleDNA
+
+### TranscriptionDNA
+
+### CodonExtraction
+
+### ConcatenateCodons
+
+### PlotAA
+
+## Discussion (Task 3)
