@@ -2,7 +2,6 @@
 % Please edit documentation in R/ConcatenateCodons.R
 \name{ConcatenateCodons}
 \alias{ConcatenateCodons}
-<<<<<<< HEAD
 \title{Concatenate amino acids values of given key codons into one string}
 \usage{
 ConcatenateCodons(key_codons)
@@ -18,22 +17,4 @@ Concatenate amino acids values of given key codons into one string
 }
 \examples{
 none
-=======
-\title{Concatenate codons into one string}
-\usage{
-ConcatenateCodons(codons2)
-}
-\arguments{
-\item{codons2}{list of codons to be merged}
-}
-\value{
-string of codons concatenated
-}
-\description{
-This function concatenates all the codons into a single string
-}
-\examples{
-none
-
->>>>>>> a67b3e519b95d6dc389c7fedf50da980c02c2960
 }

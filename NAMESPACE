@@ -2,9 +2,6 @@
 
 export(CodonExtraction)
 export(ConcatenateCodons)
+export(PlotAA)
 export(SampleDNA)
-<<<<<<< HEAD
-export(Transcription)
-=======
 export(TranscriptionDNA)
->>>>>>> a67b3e519b95d6dc389c7fedf50da980c02c2960
