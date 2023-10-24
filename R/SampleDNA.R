@@ -7,7 +7,7 @@
 #'
 #' @examples 40
 SampleDNA <- function(size){
-  amicnoacids <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
+  aminoacids <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
   DNA <- paste0(aminoacids, collapse = "")
   return(DNA)
 }
